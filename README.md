@@ -15,5 +15,5 @@
 
 Una vez inicializada la aplicación, tendrás disponible para visitar la url de [Inicio](http://127.0.0.1:8000/) y navegar dentro de las distintas páginas disponibles.
 
-Pruebas Realizadas
+## Pruebas Realizadas
 Ver archivo titulado "Pruebas Proyecto Python CH.xlsx" el cual se encuentra en el presente repositorio https://github.com/AgustinNovaro/ProyectoFinal-Novaro/tree/master/casos%20de%20prueba
