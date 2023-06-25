@@ -4,12 +4,12 @@
 
 {% block header %}
 
-<header class="masthead" style="background-image: url({% static 'blog/assets/img/home-bg.jpg' %})">
+<header class="masthead" style="background-image: url({% static 'blog/assets/img/fondomensajes.png' %})">
     <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="site-heading">
-                    <h1>Todos los mensajes</h1>
+                    <h1>Bandeja de entrada de mensajes</h1>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                     <a href="{%url 'Message_detail' message.id%}">
                         <p class="post-title">{{message.title}}</p>
                     </a>
-                    <p class="post-meta">Mensaje Enviado por {{message.sender}} el {{message.date}}</p>
+                    <p class="post-meta">Mensaje Enviado por {{message.sender}} en {{message.date}}</p>
                     <a href="{%url 'Message_detail' message.id%}">Leer</a>
                 </div>
                 {% endfor %}

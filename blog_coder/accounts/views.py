@@ -48,7 +48,7 @@ def login_request(request):
 
             if user is not None:
                 login(request, user)
-                return render(request, 'blog/home.html', {"title": "Home", "message": f"Has iniciado sesión con el usuario {user}!"})
+                return render(request, 'blog/home.html', {"title": "Home", "message": f"Bienvenido usuario {user}!"})
             else:
                 return render(request, 'blog/home.html', {"title": "Home", "message": "Error", "errors": [f"El usuario {user} no existe"]})
         

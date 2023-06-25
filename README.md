@@ -15,3 +15,5 @@
 
 Una vez inicializada la aplicación, tendrás disponible para visitar la url de [Inicio](http://127.0.0.1:8000/) y navegar dentro de las distintas páginas disponibles.
 
+Podrá visitar un video explicativo en el siguiente link: 
+

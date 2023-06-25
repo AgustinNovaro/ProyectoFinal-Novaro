@@ -9,7 +9,7 @@
         <div class="row gx-4 gx-lg-5 justify-content-center">
             <div class="col-md-10 col-lg-8 col-xl-7">
                 <div class="site-heading">
-                    <h1>Crea tu propio post!!</h1>
+                    <h1>Crea tu propio post!</h1>
                 </div>
             </div>
         </div>
@@ -53,9 +53,9 @@
 
                 {% else %}
 
-                        <h2>No existen posts aún</h2>
+                        <h2>No existen posteos aún</h2>
                         {% if request.user.is_authenticated %} 
-                        <p><a href="{% url 'Create' %}">Agregar un post</a></p>
+                        <p><a href="{% url 'Create' %}" class="btn btn-success" >Agregar un post</a></p>
                         <p><a href="{% url 'Home' %}">Volver al inicio</a></p>
                         {% else %}
                         <p>
